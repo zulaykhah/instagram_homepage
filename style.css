@@ -1,0 +1,271 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* max-width: 1400px; */
+    background-color: #f7f9fa;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.whole_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: auto; 
+}
+    /* first side */
+.insta_logo{
+    width: 100%;
+    height: 63px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.left_side{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f7f9fa;
+    background: #fff;
+    width: 50%;
+    padding: 50px; 
+    padding-left: 15px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: #00000000;
+}
+
+ul{
+    text-decoration: none; 
+    list-style-type: none;
+}
+.links li{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 25px; 
+    margin-bottom: 20px;
+    gap: 30px;  
+}
+.menu{
+    padding-left: 10px;
+}
+.menu li {
+   display: flex;  
+   margin-top: 55px; 
+   gap: 30px;
+}
+.menu span{
+    height: 24px; ;
+    width: 24px;
+}
+    /* second side */
+.right_side{
+    background:#f7f9fa; 
+}
+     /* card1 header */
+.card1_header{
+    display: flex;
+    flex-direction: row; 
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+.card1_header img{
+    width: 50px;
+    height: 40px;
+}
+.card1_header  h3{
+    padding-left: 10px
+} 
+.card1_header span {
+    padding-left: 170px;    
+}
+.card1{
+    /* align-items: center; */
+    border:1px solid lightgrey ;
+    border-radius: 7px;
+    background: #fff;
+    padding-top: 3px;
+}
+.polygon_icon{
+    padding-left: 5px;
+    padding-left: 310px;
+}
+.icon_down{
+    padding-left: 10px;
+}
+.ologi_message{
+    padding-left: 10px;
+    line-height: 1.8;
+}
+.down_input{
+    border: 1px solid #f7f9fa;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.comment{
+    padding-left: 10px;
+    color: lightgrey;
+}
+.post{
+    padding-left: 240px;
+    color: lightblue;
+}
+/* CARD 2 */
+.card2_header{
+    display: flex;
+    flex-direction: row; 
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    align-items: center;
+}
+.card2_header img{
+    width: 50px;
+    height: 40px;
+}
+.card2_header  h3{
+    padding-left: 10px;
+    font-size: 15px;
+} 
+.card2_header span {
+    padding-left: 220px;    
+}
+.card2{
+    align-items: center; 
+    border:1px solid lightgrey;
+    border-radius: 7px;
+    background: #fff;
+    padding-top: 3px;
+}
+.pearl_message2{
+    padding-left: 10px;
+    line-height: 1.8;
+}
+/* card 3 */
+.card_header3{
+    display: flex;
+    flex-direction: row; 
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    align-items: center;
+}
+.card_header3 img{
+    width: 50px;
+    height: 40px;
+}
+.card_header3  h3{
+    padding-left: 10px
+} 
+.card_header3 span {
+    padding-left: 220px;    
+}
+.card3 img{
+    width: auto;
+    height: auto;
+}
+.card3{
+    /* align-items: center; */
+    border:1px solid lightgrey ;
+    border-radius: 7px;
+    background: #fff;
+    padding-top: 3px;
+}
+.polygon_icon{
+    padding-left: 5px;
+    padding-left: 310px;
+}
+.icon_down{
+    padding-left: 10px;
+    align-items: center;
+}
+.bodysuit_message2{
+    padding-left: 10px;
+    line-height: 1.8;
+
+}
+.suit_input{
+    border: 1px solid #f7f9fa;
+    border-radius: 7px;
+}
+.suit_input p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: lightgrey;
+}
+/* Card 4 */
+.card_header4{
+    display: flex;
+    flex-direction: row; 
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+}
+.card_header4 img{
+    width: 50px;
+    height: 40px;
+}
+.card_header4  h3{
+    padding-left: 10px
+} 
+.card_header4 span {
+    padding-left: 200px;    
+}
+.card4{
+    border:1px solid lightgrey ;
+    border-radius: 7px;
+    background: #fff;
+    padding-top: 3px;
+}
+.polygon_icon{
+    padding-left: 5px;
+    padding-left: 310px;
+}
+.icon_down{
+    padding-left: 10px;
+}
+.bbc_message{
+    padding-left: 10px;
+    line-height: 1.8;
+}
+
+/* Third side */
+.third_side{
+    /* margin-top: 50px; */
+    padding-left: 25px;
+}
+.side3{
+    /* display: inline; */
+    display: flex;
+    align-items: center;
+}
+.side3 a{
+    text-decoration: none;
+    padding-left: 100px;
+    color: blue;
+}
+.side3 span{
+    padding-left: 10px;
+}
+.side3 img{
+    width: auto;
+    height: auto;
+}
+.down_part{
+    margin-top: 200px;
+    font-size: 14px;
+}
+.down_part a{
+    text-decoration: none;
+    color: lightgrey;
+}
+.down_part p{
+    color: lightgrey;
+}
+.copyright_part{
+    margin-top: 30px;
+    font-size: 16px;
+    color: lightgrey;
+}
