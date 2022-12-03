@@ -28,8 +28,8 @@ body{
     width: 50%;
     padding: 50px; 
     padding-left: 15px;
-    cursor: pointer;
-    -webkit-tap-highlight-color: #00000000;
+    /* cursor: pointer;
+    -webkit-tap-highlight-color: #00000000; */
 }
 
 ul{
@@ -42,7 +42,7 @@ ul{
     align-items: center; 
     margin-top: 25px; 
     margin-bottom: 20px;
-    gap: 30px;  
+    gap: 30px; 
 }
 .menu{
     padding-left: 10px;
