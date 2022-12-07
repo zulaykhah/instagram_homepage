@@ -8,26 +8,29 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.whole_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+/* .whole_container{
     width: auto; 
-}
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
     /* first side */
 .insta_logo{
     width: 100%;
     height: 63px;
     margin-top: 10px;
-    /* margin-bottom: 10px; */
 }
 .left_side{
     display: flex;
     flex-direction: column;
+    align-self: start;
     border: 1px solid #f7f9fa;
     background: #fff;
-    width: 50%;
+    width: 20%;
+    height: 100%;
     padding: 50px; 
     padding-left: 15px;
+    position: fixed;
     /* cursor: pointer;
     -webkit-tap-highlight-color: #00000000; */
 }
@@ -57,19 +60,31 @@ ul{
     width: 24px;
 }
     /* second side */
+    /* This is the main container */
+.second_side{
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;
+    align-self: center;
+    /* position: absolute; */
+}
 .right_side{
     background:#f7f9fa; 
+    width: 36%;
+    
 }
     /* Header  */
 .card_header{
     border: 1px solid #f7f9fa;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;  
 }
 .header{
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 12px;
     align-items: center;
     gap: 7px;
 }
@@ -79,7 +94,7 @@ ul{
     flex-direction: row; 
     padding: 10px;
     border: 1px solid lightgrey;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
 }
 .card1_header img{
@@ -95,7 +110,7 @@ ul{
 .card1{
     /* align-items: center; */
     border:1px solid lightgrey ;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
     padding-top: 3px;
 }
@@ -131,7 +146,7 @@ ul{
     flex-direction: row; 
     padding: 10px;
     border: 1px solid lightgrey;
-    border-radius: 7px;
+    border-radius: 10px;
     align-items: center;
 }
 .card2_header img{
@@ -148,7 +163,7 @@ ul{
 .card2{
     align-items: center; 
     border:1px solid lightgrey;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
     padding-top: 3px;
 }
@@ -162,7 +177,7 @@ ul{
     flex-direction: row; 
     padding: 10px;
     border: 1px solid lightgrey;
-    border-radius: 7px;
+    border-radius: 10px;
     align-items: center;
 }
 .card_header3 img{
@@ -182,7 +197,7 @@ ul{
 .card3{
     /* align-items: center; */
     border:1px solid lightgrey ;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
     padding-top: 3px;
 }
@@ -201,7 +216,7 @@ ul{
 }
 .suit_input{
     border: 1px solid #f7f9fa;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 .suit_input p{
     display: flex;
@@ -215,7 +230,7 @@ ul{
     flex-direction: row; 
     padding: 10px;
     border: 1px solid lightgrey;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 .card_header4 img{
     width: 50px;
@@ -229,7 +244,7 @@ ul{
 }
 .card4{
     border:1px solid lightgrey ;
-    border-radius: 7px;
+    border-radius: 10px;
     background: #fff;
     padding-top: 3px;
 }
@@ -246,9 +261,15 @@ ul{
 }
 
 /* Third side */
+.third_container{
+    display: flex;
+    /* flex-wrap: wrap;   */
+    justify-content:end; 
+    /* align-items:flex-start;   */
+    align-self:flex-end;  
+}
 .third_side{
-    /* margin-top: 50px; */
-    padding-left: 25px;
+    padding-left: 25px;  
 }
 .side3{
     /* display: inline; */
